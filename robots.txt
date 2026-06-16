@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://codesign-at-usq.github.io/unisqhypersonics/sitemap.xml
+Sitemap: https://codesign-at-unisq.github.io/unisqhypersonics/sitemap.xml
