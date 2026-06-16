@@ -5,6 +5,10 @@
 # Source: https://github.com/myactionway/lighthouse-badger-workflows
 # License: MIT
 # Copyright (c) 2021 Sitdisch
+#
+# DISABLED: This workflow requires a LIGHTHOUSE_BADGER_TOKEN secret (a GitHub PAT with repo scope)
+# that has not been configured. To re-enable: add the secret in repo Settings → Secrets and variables
+# → Actions, then remove the `if: false` line from the job below.
 
 name: "Lighthouse Badger"
 
@@ -35,6 +39,7 @@ on:
 
 jobs:
   lighthouse-badger-easy:
+    if: false # disabled — see note at top of file
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
