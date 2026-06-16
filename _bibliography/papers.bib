@@ -1,115 +1,403 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{jsr  = {Journal of Spacecraft and Rockets}}
+@string{aiaaj = {AIAA Journal}}
+@string{jfm  = {Journal of Fluid Mechanics}}
+@string{jcp  = {Journal of Computational Physics}}
+@string{ijhmt = {International Journal of Heat and Mass Transfer}}
+@string{pop  = {Physics of Plasmas}}
+@string{eacfm = {Engineering Applications of Computational Fluid Mechanics}}
+@string{ja   = {Journal of Aircraft}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
+% ============================================================
+% JOURNAL ARTICLES
+% ============================================================
 
-@book{einstein1956investigations,
+@article{vanhoffen2026identification,
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  title       = {Aerodynamic Identification of an Actuated Hypersonic Wind Tunnel Model},
+  author      = {van Hoffen, M. T. and McQuellin, L. P. and Lock, A. J. and Buttsworth, D. R. and Jahn, I. H.},
+  journal     = ja,
+  year        = {2026},
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@article{hack2025cube,
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  title       = {Aerodynamic Coefficients of a Cube in Hypersonic Flow for All Attitudes},
+  author      = {Hack, F. M. and Lock, A. and Armstrong, G. and Jahn, I. and Buttsworth, D. and Zander, F.},
+  journal     = jsr,
+  year        = {2025},
+  volume      = {62},
+  number      = {5},
+  pages       = {1462--1473},
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@article{lock2025freeflight,
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  title       = {Aerodynamic Measurements of Hypersonic Free-Flight via Optical Tracking and {Bayesian} State Estimation},
+  author      = {Lock, A. and Hack, F. and Jahn, I. and Armstrong, G. and Birch, B. and Buttsworth, D.},
+  journal     = aiaaj,
+  year        = {2025},
+  volume      = {63},
+  number      = {5},
+  pages       = {1655--1670},
 }
 
-@book{przibram1967letters,
+@article{bone2025gaussian,
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  title       = {Gradient-Enhanced Deep {Gaussian} Processes for Multifidelity Modeling},
+  author      = {Bone, V. and van der Heide, C. and Mackle, K. and Jahn, I. and Dower, P. M. and Manzie, C.},
+  journal     = jcp,
+  year        = {2025},
+  volume      = {520},
+  pages       = {113474},
+}
+
+@article{forbesspyratos2023trajectory,
+  bibtex_show = {true},
+  title       = {Trajectory Optimization of a Partially Reusable Rocket--Scramjet--Rocket Launch System Including Fly-Back},
+  author      = {Forbes-Spyratos, S. O. and Smart, M. K. and Kearney, M. P. and Ward, A. D. T. and Jahn, I. H.},
+  journal     = jsr,
+  year        = {2023},
+  volume      = {60},
+  number      = {3},
+  pages       = {779--796},
+}
+
+@article{tapinou2023collisions,
+  bibtex_show = {true},
+  title       = {The Effect of Collisions on the Multi-Fluid Plasma {Richtmyer--Meshkov} Instability},
+  author      = {Tapinou, K. C. and Wheatley, V. and Bond, D. and Jahn, I.},
+  journal     = pop,
+  year        = {2023},
+  volume      = {30},
+  number      = {2},
+}
+
+@article{tapinou2022richtmyer,
+  bibtex_show = {true},
+  title       = {The {Richtmyer--Meshkov} Instability of Thermal, Isotope and Species Interfaces in a Five-Moment Multi-Fluid Plasma},
+  author      = {Tapinou, K. C. and Wheatley, V. and Bond, D. and Jahn, I.},
+  journal     = jfm,
+  year        = {2022},
+  volume      = {951},
+  pages       = {A11},
+}
+
+@article{qi2022riemann,
+  bibtex_show = {true},
+  title       = {Development and Validation of a {Riemann} Solver in {OpenFOAM} for Non-Ideal Compressible Fluid Dynamics},
+  author      = {Qi, J. and Xu, J. and Han, K. and Jahn, I. H. J.},
+  journal     = eacfm,
+  year        = {2022},
+  volume      = {16},
+  number      = {1},
+  pages       = {116--140},
+}
+
+@article{swann2022supercritical,
+  bibtex_show = {true},
+  title       = {Supercritical Carbon Dioxide {Taylor--Couette--Poiseuille} Flow Heat Transfer},
+  author      = {Swann, P. and Jahn, I. and Russell, H.},
+  journal     = ijhmt,
+  year        = {2022},
+  volume      = {183},
+  pages       = {122204},
+}
+
+% ============================================================
+% CONFERENCE PAPERS — 2026
+% ============================================================
+
+@inproceedings{lock2026remote,
+  bibtex_show = {true},
+  title       = {Remote Optical Diagnostics for the {BOLT-1B} Launch Campaign},
+  author      = {Lock, A. and Buttsworth, D. and van Hoffen, M. and Hack, F. and Jahn, I. and Sopek, T. and Zander, F.},
+  booktitle   = {AIAA Science and Technology Forum and Exposition (SciTech 2026)},
+  year        = {2026},
+}
+
+@inproceedings{lock2026bolt,
+  bibtex_show = {true},
+  title       = {Optical Diagnostics of the {BOLT-1B} Flight Experiment},
+  author      = {Lock, A. and Buttsworth, D. and van Hoffen, M. and Hack, F. and Jahn, I. H. and Sopek, T. and Zander, F.},
+  booktitle   = {AIAA SCITECH 2026 Forum},
+  year        = {2026},
+}
+
+@inproceedings{koirala2026heatloads,
+  bibtex_show = {true},
+  title       = {Computationally Efficient Modelling of Full Trajectory Heat Loads for Hypersonic Systems},
+  author      = {Koirala, S. B. and Jahn, I. and Williamson, J. and Buttsworth, D. and Zander, F. and Lock, A.},
+  booktitle   = {AIAA SCITECH 2026 Forum},
+  year        = {2026},
+}
+
+@inproceedings{zander2026osiris,
+  bibtex_show = {true},
+  title       = {The Australian-German Contributions to the {OSIRIS-REx} Re-Entry Capsule Observation},
+  author      = {Zander, F. and Lock, A. and Birch, B. and Moran, J. and Buttsworth, D. and Armstrong, G. and Hack, F. and others},
+  booktitle   = {AIAA SCITECH 2026 Forum},
+  year        = {2026},
+}
+
+@inproceedings{swann2026nozzle,
+  bibtex_show = {true},
+  title       = {Commissioning of a Supersonic Nozzle Control Regulator in the {TUSQ} Facility},
+  author      = {Swann, P. and Moran, J. and Buttsworth, D. and Jahn, I. H.},
+  booktitle   = {AIAA SCITECH 2026 Forum},
+  year        = {2026},
+}
+
+@inproceedings{vanderheide2026codesign,
+  bibtex_show = {true},
+  title       = {Hypersonic Vehicle Co-Design for Multi-Stage Mission Planning},
+  author      = {van der Heide, C. and Bone, V. and Dower, P. M. and Manzie, C. and Jahn, I.},
+  booktitle   = {AIAA SCITECH 2026 Forum},
+  year        = {2026},
+}
+
+% ============================================================
+% CONFERENCE PAPERS — 2025
+% ============================================================
+
+@inproceedings{hack2025oblique,
+  bibtex_show = {true},
+  title       = {Aerodynamic Forces and Moments on a Cube Interacting with an Oblique Shock},
+  author      = {Hack, F. M. and Jahn, I. and Buttsworth, D. and Zander, F.},
+  booktitle   = {AIAA AVIATION Forum and ASCEND 2025},
+  year        = {2025},
+}
+
+@inproceedings{vanderheide2025leadingedge,
+  bibtex_show = {true},
+  title       = {Multi-Mission Codesign of a Hypersonic Vehicle Leading Edge with Heat Flux Constraints},
+  author      = {van der Heide, C. and Lock, A. and Bone, V. and Mackle, K. and Jahn, I. H. and Dower, P. M. and others},
+  booktitle   = {AIAA SCITECH 2025 Forum},
+  year        = {2025},
+}
+
+@inproceedings{lock2025glide,
+  bibtex_show = {true},
+  title       = {Hypersonic Glide Vehicle Shape and Trajectory Co-Design},
+  author      = {Lock, A. and Oberman, G. and Jahn, I. H. and van der Heide, C. and Bone, V. and Dower, P. M. and others},
+  booktitle   = {AIAA SCITECH 2025 Forum},
+  year        = {2025},
+}
+
+@inproceedings{jahn2025surfacepressures,
+  bibtex_show = {true},
+  title       = {Approximate Surface Pressures and Heat Load Gradients for the Optimisation of Hypersonic Vehicles},
+  author      = {Jahn, I. H.},
+  booktitle   = {AIAA SCITECH 2025 Forum},
+  year        = {2025},
+}
+
+@inproceedings{grybko2025detonation,
+  bibtex_show = {true},
+  title       = {Effect of Rotating Detonation on a Ramjet Inlet in {Mach} 4 Free-Jet Experiments},
+  author      = {Grybko, M. and Moran, J. and Buttsworth, D. and Zander, F.},
+  booktitle   = {AIAA AVIATION Forum and ASCEND 2025},
+  year        = {2025},
+}
+
+@inproceedings{swann2025ramjet,
+  bibtex_show = {true},
+  title       = {Pressure Recovery Performance of a {Mach} 3 Ramjet Inlet},
+  author      = {Swann, P. and Moran, J. and Buttsworth, D.},
+  booktitle   = {21st Australian International Aerospace Congress (AIAC 2025)},
+  year        = {2025},
+}
+
+@inproceedings{webb2025heater,
+  bibtex_show = {true},
+  title       = {Initial Testing of a Pilot Storage Heater for a Supersonic Wind Tunnel},
+  author      = {Webb, A. and Swann, P. and Buttsworth, D. and Jahn, I.},
+  booktitle   = {21st Australian International Aerospace Congress (AIAC 2025)},
+  year        = {2025},
+  pages       = {173--178},
+}
+
+% ============================================================
+% CONFERENCE PAPERS — 2024
+% ============================================================
+
+@inproceedings{koirala2024heattransfer,
+  bibtex_show = {true},
+  title       = {Comparison of Methods for Efficient Calculation of Transient Conjugate Heat Transfer in Hypersonic Systems},
+  author      = {Koirala, S. and Oberman, G. and Buttsworth, D. and Zander, F. and Jahn, I. H. J.},
+  booktitle   = {24th Australasian Fluid Mechanics Conference},
+  year        = {2024},
+}
+
+@inproceedings{mittelman2024sensitivity,
+  bibtex_show = {true},
+  title       = {Sensitivity Derivatives of a Low-Order Integrated Scramjet Propulsion Model for Gradient-Based Co-Design {MDAO}},
+  author      = {Mittelman, A. and Mackle, K. and Jahn, I. and Gollan, R.},
+  booktitle   = {HiSST: 3rd International Conference on High-Speed Vehicle Science and Technology},
+  year        = {2024},
+}
+
+@inproceedings{mittelman2024modular,
+  bibtex_show = {true},
+  title       = {Modular Modelling Approach for Efficient Gradient Evaluation of a Low-Order Integrated Scramjet Propulsion System},
+  author      = {Mittelman, A. and Mackle, K. and Jahn, I. and Gollan, G.},
+  booktitle   = {63rd Israel Annual Conference on Aerospace Sciences},
+  year        = {2024},
+}
+
+@inproceedings{mittelman2024adjoint,
+  bibtex_show = {true},
+  title       = {Adjoint Differentiation Method for Trajectory Simulations with Terminal Conditions},
+  author      = {Mittelman, A. and Gollan, R. and Jahn, I.},
+  booktitle   = {63rd Israel Annual Conference on Aerospace Sciences},
+  year        = {2024},
+}
+
+@inproceedings{tapinou2024fsi,
+  bibtex_show = {true},
+  title       = {Hypersonic Fluid--Structure Interactions with Elastic Deformation and Viscous Effects},
+  author      = {Tapinou, K. C. and Jahn, I. and Whyborn, L. and Jacobs, P.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{tapinou2024closely,
+  bibtex_show = {true},
+  title       = {Efficient Closely-Coupled Simulations of Hypersonic Fluid--Structure Interaction on an Inclined Ramp in 2-{D} and 3-{D}},
+  author      = {Tapinou, K. C. and Jahn, I. and Jacobs, P.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{mackle2024shape,
+  bibtex_show = {true},
+  title       = {Efficient and Flexible Methodology for the Aerodynamic Shape Optimization of Hypersonic Vehicle Concepts},
+  author      = {Mackle, K. and Jahn, I.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{mackle2024codesign,
+  bibtex_show = {true},
+  title       = {Developing a Co-Design Framework for Hypersonic Vehicle Aerodynamics and Trajectory},
+  author      = {Mackle, K. and Lock, A. and Jahn, I. and van der Heide, C.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{vanhoffen2024canards,
+  bibtex_show = {true},
+  title       = {Roll and Pitch Control of a Hypersonic Wind Tunnel Model with Actuated Canards},
+  author      = {van Hoffen, M. and Jahn, I.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{mcquellin2024propelled,
+  bibtex_show = {true},
+  title       = {Free-Flight of a Propelled Axisymmetric Vehicle in a Hypersonic Ground-Test Facility},
+  author      = {McQuellin, L. P. and Buttsworth, D.},
+  booktitle   = {AIAA SCITECH 2024 Forum},
+  year        = {2024},
+}
+
+@inproceedings{swann2024tusq,
+  bibtex_show = {true},
+  title       = {Reconfiguring the {TUSQ} Hypersonic Facility for Lower {Mach} Number},
+  author      = {Swann, P. and Buttsworth, D. and Jahn, I. H. and Frith, R. and Moran, J. and Webb, A. and Noller, L.},
+  booktitle   = {AIAA AVIATION Forum and ASCEND 2024},
+  year        = {2024},
+}
+
+@inproceedings{moran2024mach,
+  bibtex_show = {true},
+  title       = {{Mach} 6 and {Mach} 7 Conditions in {TUSQ} at {Reynolds} Numbers up to 30 Million},
+  author      = {Moran, J. and Buttsworth, D. and Noller, L.},
+  booktitle   = {AIAA AVIATION Forum and ASCEND 2024},
+  year        = {2024},
+}
+
+@inproceedings{noller2024inlet,
+  bibtex_show = {true},
+  title       = {Depressurisation Restart Method for a Hypersonic Inlet with Closed-Plenum Mass Flow Metering},
+  author      = {Noller, L. J. and Buttsworth, D. and Zander, F.},
+  booktitle   = {AIAA AVIATION Forum and ASCEND 2024},
+  year        = {2024},
+}
+
+% ============================================================
+% CONFERENCE PAPERS — 2023
+% ============================================================
+
+@inproceedings{lock2023bayesian,
+  bibtex_show = {true},
+  title       = {Optical Aerodynamic Measurements of Hypersonic Free-Flight Using {Bayesian} State Estimation},
+  author      = {Lock, A. and Armstrong, G. and Hack, F. and Birch, B. and Buttsworth, D. and Jahn, I. H.},
+  booktitle   = {AIAA Aviation 2023 Forum},
+  year        = {2023},
+}
+
+@inproceedings{paxton2023transpiration,
+  bibtex_show = {true},
+  title       = {Experimental Results of the Electron Transpiration Cooling Effect in the {X2} Expansion Tunnel},
+  author      = {Paxton, O. L. and Porat, H. and Jahn, I. H.},
+  booktitle   = {AIAA AVIATION 2023 Forum},
+  year        = {2023},
+}
+
+@inproceedings{jahn2023waveingesting,
+  bibtex_show = {true},
+  title       = {Conceptual Study into Wave Ingesting Propulsion for Hypersonic Flight},
+  author      = {Jahn, I. H.},
+  booktitle   = {25th AIAA International Space Planes and Hypersonic Systems and Technologies Conference},
+  year        = {2023},
+}
+
+@inproceedings{vanderheide2023feasibility,
+  bibtex_show = {true},
+  title       = {Feasibility Detection for Nested Codesign of Hypersonic Vehicles},
+  author      = {van der Heide, C. and Cudmore, P. and Jahn, I. and Bone, V. and Dower, P. M. and Manzie, C.},
+  booktitle   = {62nd IEEE Conference on Decision and Control (CDC)},
+  year        = {2023},
+  pages       = {632--637},
+}
+
+@inproceedings{bone2023supercritical,
+  bibtex_show = {true},
+  title       = {Model Predictive Control of the High-Pressure Side of a Simple Supercritical {CO2} Cycle},
+  author      = {Bone, V. and Kearney, M. and Jahn, I.},
+  booktitle   = {2023 American Control Conference (ACC)},
+  year        = {2023},
+  pages       = {1813--1818},
+}
+
+% ============================================================
+% CONFERENCE PAPERS — 2022
+% ============================================================
+
+@inproceedings{hack2022eilmer,
+  bibtex_show = {true},
+  title       = {An Incident Shock Boundary Condition for {Eilmer4}},
+  author      = {Hack, F. and Jahn, I. and Buttsworth, D. and Zander, F.},
+  booktitle   = {23rd Australasian Fluid Mechanics Conference},
+  year        = {2022},
+}
+
+@inproceedings{mackle2022codesign,
+  bibtex_show = {true},
+  title       = {Co-Designing Hypersonic Vehicle Geometry and Trajectory},
+  author      = {Mackle, K. and Jahn, I.},
+  booktitle   = {23rd Australasian Fluid Mechanics Conference},
+  year        = {2022},
+  pages       = {1--8},
+}
+
+@inproceedings{vanhoffen2022digitaltwin,
+  bibtex_show = {true},
+  title       = {Development and Validation of a Digital Twin to Design a Wing Attitude Controller},
+  author      = {van Hoffen, M. and Jahn, I. H. J.},
+  booktitle   = {Australian Fluid Mechanics Conference 2022},
+  year        = {2022},
 }
